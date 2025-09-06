@@ -20,7 +20,7 @@ class PersonaController extends BaseController{
 
   }
   
-    public function crear(){
+  public function crear(){
 
     $departamento = new Departamento();
 
@@ -34,7 +34,7 @@ class PersonaController extends BaseController{
 
 
 
-    public function guardar() {
+  public function guardar() {
     $persona = new Persona();
     
     $nombres = $this ->request->getVar('nombres');
