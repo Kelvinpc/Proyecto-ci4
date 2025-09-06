@@ -32,3 +32,9 @@ $routes->get('/api/personas/buscardni/(:num)', 'PersonaController::searchByDNI/$
 $routes->get('/api/ubigeo/provincias/(:num)', 'ProvinciaController::getProvinciasByDepartamento/$1');
 
 $routes->get('/api/ubigeo/distritos/(:num)', 'DistritoController::getDistritoByProvincia/$1');
+
+
+//recursos
+$routes->get('/recursos', 'RecursoController::index');
+
+
